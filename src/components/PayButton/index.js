@@ -13,7 +13,7 @@ export default function PayButton({ onPress, focused }) {
                      ? ['#FFF', '#ccc']
                      : ['#00fc6c', '#00ac4a']
                 }
-                start={{x: 1, y: 1}} end={{x: 0.2, y: 0.2}}
+                start={{x: 1, y: 0}} end={{x: 0, y: 0.2}}
             >
                 <Icon name="attach-money" size={30} color={focused ? '#000' : '#FFF'} />
                 <Label focused={focused}>Pagar</Label>
